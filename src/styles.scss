@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&display=swap');
+
+
+$background: #757575;
+$foreground: #d6d6d6;
+$text-color: #474747;
+
+body {
+    background-color: $background;
+    color: $text-color;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.upload-section {
+    background-color: $foreground;
+    height: 500px;
+    border: 3px dashed $text-color;
+    border-radius: 25px;
+}
+
+.uploadcare-button {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+}
+
+.couple-section {
+    margin-top: 200px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+}
+
+.company-name-first {
+    font-family: 'Great Vibes', cursive;
+}
+
+.company-name-second {
+    font-size: 16px;
+}

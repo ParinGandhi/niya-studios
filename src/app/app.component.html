@@ -2,7 +2,7 @@
    <img ngxMasonryItem class="masonry-item" *ngFor="let item of masonryItems" [src]="item.imgUrl" alt="">
 </ngx-masonry> -->
 
-<div class="img-container">
+<!-- <div class="img-container">
   <figure *ngFor="let item of masonryItems">
     <img class="zoom" [src]="item.imgUrl" alt="" (click)="setSelectedImage(item.imgUrl)">
   </figure>
@@ -11,6 +11,15 @@
 <dialog style="height: 90vh;">
   <button type="button" class="btn btn-outline-info mb-2" (click)="closeModal()">Close</button>
   <img class="img-fluid" [src]="selectedImage" alt="" style="height: 80vh;">
-</dialog>
+</dialog> -->
 
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><span class="company-name-first">Niya</span><span class="company-name-second ps-1">Studios</span></a>
+   
+   
+  </div>
+</nav>
+
+<app-file-uploader class="ms-5"></app-file-uploader>
 <router-outlet></router-outlet>

@@ -1,0 +1,36 @@
+<div class="row">
+    <div class="col-md-10 col-sm-8 col-xs-8 offset-md-1 offset-sm-2 offset-xs-2 upload-section">
+        <div class="couple-section text-center">
+            <h1>Mickey & Minnie's wedding</h1>
+        </div>
+        <div class="text-center">
+            <h3>
+                Upload pictures you want to share with the couple. Remain on the page until all uploads complete.
+            </h3>
+        </div>
+        <div class="uploadcare-button">
+            <lr-config
+        ctx-name="my-uploader"
+        pubkey="a650c934d94a5b685437"
+        img-only="true"
+        multiple="true"
+        max-local-file-size-bytes="524288000"
+        use-cloud-image-editor="true"
+        source-list="local, url, camera, dropbox"
+    >
+    </lr-config>
+    
+    <lr-file-uploader-regular
+        ctx-name="my-uploader"
+        css-src="https://cdn.jsdelivr.net/npm/@uploadcare/blocks@0.30.8/web/lr-file-uploader-regular.min.css"
+    >
+    </lr-file-uploader-regular>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
